@@ -1,0 +1,56 @@
+<!-- 스타일 적용하기 -->
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+
+<!-- 제이쿼리 사용을 위한 불러오기 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-1">
+      <select id="numberDropdown">
+        <option value="All">전체</option>
+        <option value="71">71회</option>
+        <option value="70">70회</option>
+        <option value="69">69회</option>
+      </select>
+    </div>
+    <div class="col-2">
+      <select id="divisionDropdown">
+        <option value="All">전체</option>
+        <option value="초등부">초등부</option>
+        <option value="중등부">중등부</option>
+        <option value="고등부">고등부</option>
+      </select>
+    </div>
+    <div class="col-3">
+      <select id="sectorDropdown">
+        <option value="All">전체</option>
+        <option value="피아노">피아노</option>
+        <option value="바이올린">바이올린</option>
+        <option value="비올라">비올라</option>
+      </select>
+    </div>
+    <div class="check_box">
+      <button class='check' id='check'>조회</button>
+    </div>
+    
+    <div class="col-4">
+      <input type="text" id="textInput" placeholder="이름검색">
+      <button id='search' class='search' >검색</button>
+    </div>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th> 년도 </th>
+        <th> 회차 </th>
+        <th> 구분 </th>
+        <th> 부문 </th>
+        <th> 순위 </th>
+        <th> 이름 </th>
+        <th> 비고 </th>
+      </tr>
+    </thead>
+        <tbody id="download-forms-table-tbody">
+    </tbody>
