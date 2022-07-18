@@ -1,0 +1,94 @@
+.row{
+  position:releative;
+}
+/* .col-1{
+  position:absolute;
+}
+
+.col-2{
+  position:absolute;
+}
+
+.col-3{
+  position:absolute;
+} */
+
+table {
+    border-collapse: collapse;
+    border-spacing : 0px;
+    padding: 0px;
+    border-style: none;
+    position:absolute;
+    margin-top:50px;
+    width: 820px;
+  }
+
+  th {
+    height : 40px;
+    background-color: #A47B3E;
+    color:#FFFFFF;
+    font-family:'Noto Sans KR';
+    font-weight:300;
+    
+    
+  }
+
+  td {
+    text-align: center;
+    width : 110px;
+    height : 40px;
+    font-family:'Noto Sans KR';
+    font-weight:400;
+    border-bottom: 1px solid #F1F1F1;
+  }
+
+  select {
+    width:100px;
+    padding:4px;
+    border: 1px;
+    margin: 3px;
+    background-color: #F1F1F1;
+    font-family:'Noto Sans KR';
+    font-weight:300;
+    float:left;
+  }
+
+  .check {
+    width: 60px;
+    padding:3px;
+    text-align: center;
+    //border : 1px solid;
+    color: #white;
+    position: reletive;
+    background-color: #ffffff;
+    font-family:'Noto Sans KR';
+    font-weight:300;
+    float:left; 
+  }
+
+
+.search{
+    width: 60px;
+    padding:4px;
+    margin-top:3px;
+    margin : 3px;
+    text-align: center;
+    border : 1px solid #000000;
+    color: #white;
+    position: reletive;
+    background-color: #ffffff;
+    font-family:'Noto Sans KR';
+    font-weight:300;
+    float:left;
+}
+
+  input {
+    float:left;
+    width: 130px;
+    padding:4px;
+    margin-top:3px;
+    margin-left: 225px;
+    border : 1px solid #000000;
+    font-family:'Noto Sans KR';
+    font-weight:300;
+  }
